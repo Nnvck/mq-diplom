@@ -31,58 +31,101 @@
 </header>
 
 <div class="pagination">
+<div class="trends-container">
 <section class="top-section-content">
       <h2>
         <a href="/" class="top-section-caption">сейчас в тренде</a>
       </h2>
       <div class="top-section">
-      <div class="trending-post post1">
+      <article class="trending-post trend-post1">
+      <div class="top-wrapper">
+       <div class="top-contentfull">
       <div class="top-content">
-      	<ul class="top-content-tegs">
-          <li><a href="#0" class="top-content-teg">lyfestyle</a></li>
-          <li><a href="#0" class="top-content-teg">interior</a></li>
-       </ul>  
-     <h2>
+      	<ul class="top-content-tegs preview-teg">
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">lifestyle</a>
+          </li>
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">interior</a>
+          </li>
+       </ul> 
+       <div class="trend-header"> 
+     <h2 class="trend-title">
        <a href="/" class="trend-content-title">Сейчас в тренде: сад 
 на подоконнике</a>
+     </h2>
      </div>
      </div>
-     <div class="trending-post post2">
+    </div>
+    </div> 
+  </article>
+
+     <article class="trending-post trend-post2">
+      <div class="top-wrapper">
+      <div class="top-contentfull">
       <div class="top-content">
-      	<ul class="top-content-tegs">
-          <li><a href="#0" class="top-content-teg">food</a></li>
-       </ul>  
-     <h2>
+      	<ul class="top-content-tegs preview-teg">
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">food</a>
+          </li>
+       </ul> 
+       <div class="trend-header"> 
+     <h2 class="trend-title">
        <a href="/" class="trend-content-title">сыры на красивых 
 картинках из интернета:
 какие они на вкус?</a>
+     </h2>
      </div>
      </div>
-     <div class="trending-post post3">
+     </div>
+     </div>
+   </article>
+
+     <article class="trending-post trend-post3">
+      <div class="top-wrapper">
+      <div class="top-contentfull">
       <div class="top-content">
-      	<ul class="top-content-tegs">
-          <li><a href="#0" class="top-content-teg">lifestyle</a></li>
-          <li><a href="#0" class="top-content-teg">travel</a></li>
-       </ul>  
-     <h2>
+      	<ul class="top-content-tegs preview-teg">
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">lifestyle</a>
+          </li>
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">travel</a></li>
+       </ul> 
+       <div class="trend-header"> 
+     <h2 class="trend-title">
        <a href="/" class="trend-content-title">СОБИРАЕМСЯ В ПЕРВЫЙ
 ПОХОД В ГОРЫ</a>
+    </h2>
      </div>
     </div>
-     <div class="trending-post post4">
+  </div>
+</div>
+  </article>
+
+     <article class="trending-post trend-post4">
+      <div class="top-wrapper">
+      <div class="top-contentfull">
       <div class="top-content">
-      	<ul class="top-content-tegs">
-          <li><a href="#0" class="top-content-teg">food</a></li>
-          <li><a href="#0" class="top-content-teg">health</a></li>
+      	<ul class="top-content-tegs preview-teg">
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">food</a>
+          </li>
+          <li class="top-content-meta preview-meta">
+            <a href="#0" class="trend-tag-link preview-teg-link">health</a></li>
        </ul>  
-     <h2>
+       <div class="trend-header"> 
+     <h2 class="trend-title">
        <a href="/" class="trend-content-title">Сейчас в тренде: CКОЛЬКО
 ВИТАМИНА c В ЛИМОНАХ?</a>
+     </h2>
+     </div>
      </div>
     </div>
-   </div>
+    </div>
+   </article>
   </section>
-
+ </div>
 
   <div class="content">
    <main class="main-content">
@@ -316,27 +359,36 @@
    </div>
 
    <section class="bottom-section-content">
-      <h2>
-        <a href="/" class="bottom-section-caption">Наши изделия</a>
+    <div class="product-wrap">
+      <h2 class="trends-title preview-title last-news-title-bar">
+        <a href="/" class="bottom-section-caption trends-title-link">Наши изделия</a>
       </h2>
       <div class="bottom-body">
     <article class="bottom-section">
      <div class="product_imgbox">
-     	<img src="images/shop-item-desk1.jpg" alt="роовая подушка с надписью">
+     <picture>
+       <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+        <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+          <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
+            <img src="images/shop-item-desk1.jpg" class="product_img" alt="подушка с надписью на анлийском">
+     </picture>
      </div>
+
      <div class="product_body">
       <div class="bottom-content"> 
-    <h2>
-       <a href="/" class="product-content-title">Подушки на диван</a>
-    </h2>
+    <h3 href="/" class="product-content-title preview-title">Подушки на диван
+    </h3>
        <div class="product_description">
-        <p class="bottom-content-text">Набор из двух подушек с модными принтами. Видео о создании <a href="/" class="reference">здесь</a></p>
+        <p> 
+          Набор из двух подушек с модными принтами. Видео о создании
+          <a href="/" class="reference">здесь</a>
+        </p>
        </div>
       </div>
       <footer class="product_footer">
           <div class="product_prices">
             <span class="product__price product__price_old">
-              <span class="product_price-value">1000</span>
+              <span class="product_price-old">1000</span>
               <span class="product_rub">₽</span>
             </span>
             <span class="product_price">
@@ -351,42 +403,62 @@
 
    <article class="bottom-section">
     <div class="product_imgbox">
-     	<img src="images/shop-item-desk2.jpg" alt="игрушечный зайчик с розовыми ушами и книги">
+      <picture>
+     	<source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+      <source srcset="images/shop-item-tablet2.jpg" media="(mix-width: 640px) and (max-width: 1199px)">
+      <source srcset="images/shop-item-desk2.jpg" media=" (max-width: 1200px)">
+        <img class="product_img" src="images/shop-item-desk2.jpg" alt="заяц с розовыми ушами">
+      </picture>
     </div>
     <div class="product_body">
-      <div class="bottom-content"> 
-       <h2>
-        <a href="/" class="product-content-title">Кукла «Зайчик»</a>
-       </h2>
-        <p class="bottom-content-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="/" class="reference">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-      </div>
+      <div class="bottom-content">
+
+        <h3 href="/" class="product-content-title preview-title">
+          Кукла «Зайчик»
+       </h3>
+       <div class="product_description">
+        <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="/" class="reference">весенняя серия постов</a> в блоге и несколько подкастов.
+       </p>
+     </div>
+    </div>
       <footer class="product_footer">
           <div class="product_prices">
+            <span class="product_price product__price_old">
+              <span class="product__price_old"></span>
+              <span class="product_rub"></span>
+            </span>
             <span class="product_price">
               <span class="product_price-value">3500</span>
               <span class="product_rub">₽</span>
             </span>
           </div>
           <button class="product_button" type="button">В магазин</button>
-        </footer>
+     </footer>
     </div>
    </article>
 
    <article class="bottom-section">
     <div class="product_imgbox">
-     	<img src="images/shop-item-desk3.jpg" alt="ваза с гипсофилой и шестиугольная рамка">
+    <picture>
+      <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+      <source srcset="images/shop-item-tablet3.jpg" media="(mix-width: 640px) and (max-width: 1199px)">
+      <source srcset="images/shop-item-desk3.jpg" media=" (max-width: 1200px)">
+     <img class="product_img" src="images/shop-item-desk3.jpg" alt="ваза с гипсофилой и шестиугольная рамка">
+     </picture>
     </div>
     <div class="product_body">
       <div class="bottom-content"> 
-     <h2>
-       <a href="/" class="product-content-title">Шестиугольная рамка</a>
-     </h2>
-       <p class="bottom-content-text">Необычная рамка для украшения дома из видео  <a href="/" class="reference">«Как сделать рамку из подручных средств за 30 минут»</a></p>
-     </div>
+     <h3 href="/" class="product-content-title preview-title">Шестиугольная рамка
+     </h3>
+     <div class="product_description">
+       <p>Необычная рамка для украшения дома из видео  <a href="/" class="reference">«Как сделать рамку из подручных средств за 30 минут»</a>
+      </p>
+    </div>
+   </div>
     <footer class="product_footer">
           <div class="product_prices">
             <span class="product__price product__price_old">
-              <span class="product_price-value">500</span>
+              <span class="product_price_old">500</span>
               <span class="product_rub">₽</span>
             </span>
             <span class="product_price">
@@ -396,10 +468,11 @@
           </div>
           <button class="product_button" type="button">В магазин</button>
         </footer>
+       </div>
+      </article>
+     </div>
     </div>
-    </article>
-  </div>
-</section>
+   </section>
   
 
     <footer>
